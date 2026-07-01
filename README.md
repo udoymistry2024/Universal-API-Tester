@@ -9,7 +9,7 @@ Universal API Tester is a premium, lightweight, and extremely powerful **develop
 Designed with a cyber-futuristic **Matrix-Green Terminal HUD** aesthetic (complete with CRT monitor scanlines, glowing visual feedback, and custom searchable dropdown widgets), it brings the command-line vibe directly to your web browser.
 
 ---
-#🌐 Live Website URl: https://utestapi.onrender.com
+🌐 Live Website URl: https://utestapi.onrender.com
 ---
 
 ## 🚀 Key Features
