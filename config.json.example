@@ -1,0 +1,6 @@
+{
+  "timeout": 15.0,
+  "retry_count": 2,
+  "concurrency": 5,
+  "theme": "dark"
+}

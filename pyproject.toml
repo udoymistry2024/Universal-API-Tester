@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "universal-ai-tester"
+version = "1.0.0"
+description = "Universal AI API Model Tester Terminal CLI"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Proprietary"}
+authors = [
+    {name = "Udoy Mistry", email = "udoymistry@gmail.com"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "rich>=13.0.0",
+    "httpx>=0.25.0",
+    "typer>=0.9.0",
+    "pydantic>=2.0.0",
+    "python-dotenv>=1.0.0",
+    "questionary>=2.0.0",
+    "fastapi>=0.100.0",
+    "uvicorn>=0.22.0",
+]
+
+[project.scripts]
+universal-ai-tester = "app.main:app"
+api-test = "app.main:app"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["app*"]
